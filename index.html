@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Rust language</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Rust language</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <!--Make a main section about rust language with a brief intro about rust an image and a button to sign up  using bootstrap-->
+        <section class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Rust language</h1>
+                    <p>Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references. Rust achieves memory safety without garbage collection, and reference counting is optional. Rust was originally designed by Graydon Hoare at Mozilla Research, with contributions from Dave Herman, Brendan Eich, and others. The designers refined the language while writing the Servo layout or browser engine, and the Rust compiler. The compiler is free and open-source software dual-licensed under the MIT License and Apache License 2.0.</p>
+                    <button class="btn-subscribe">Sign up !</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/rust_lang_logo.png" alt="rust" class="img-fluid" id="rust_logo">
+                </div>
+            </div>
+            <section class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets\images\question-mark.png" class="card-img-top" alt="question_mark_icon">
+                            <div class="card-body">
+                                <h5 class="card-title">Why using Rust ?</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>
+                                            Rust is a high-performance and memory-efficient programming language that can power performance-critical services, run on embedded devices, and easily integrate with other languages.
+                                        </li>
+                                        <li>
+                                            Rust's rich type system and ownership model guarantee memory-safety and thread-safety, which helps eliminate many classes of bugs at compile-time.
+                                        </li>
+                                        <li>
+                                            Rust has great documentation, a friendly compiler with useful error messages, and top-notch tooling, including an integrated package manager and build tool, smart multi-editor support with auto-completion and type inspections, an auto-formatter, and more.
+                                        </li>
+                                    </ul>
+                            </p>
+                                <button class="btn btn-primary">Why Rust ?</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/images/online-learning.png" class="card-img-top" alt="icon2">
+                            <div class="card-body"> 
+                                <h5 class="card-title">Learn Rust</h5>
+                                <p class="card-text">A lot of ressources are available to help you learn Rust easily
+                                    such as "the book", the documentation or even "Rustlings" which is a small set 
+                                    of exercises to get you used to reading and writing Rust code.
+                                </p>
+                                <button class="btn btn-primary">Learn Rust</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/images/web-programming.png" class="card-img-top" alt="icon3">
+                            <div class="card-body">
+                                <h5 class="card-title">Try Rust</h5>
+                                <p class="card-text">Don't want to install Rust ? No worries, you can try it online within its playground.</p>
+                                <button class="btn btn-primary">Try it !</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Affectionately nicknamed “the book,” 
+                            The Rust Programming Language will give 
+                            you an overview of the language from first 
+                            principles. You’ll build a few projects along 
+                            the way, and by the end, you’ll have a solid grasp of the language.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/images/Rust_book.png" alt="Rust Playground" id="rust_book">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/images/play-button.png" alt="Rust Playground" id="rust_playground">
+                    </div>
+                    <div class="col-md-6">
+                        <p>The Rust Playground is a website that runs 
+                            an instance of the Rust compiler and 
+                            editor. It’s a great place to try out the 
+                            language, share code, and get feedback 
+                            on your code. You can also use it to 
+                            collaborate with others.</p>
+                    </div>
+            </section>
+            <section>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="assets/images/john_doe.jpg" alt="Person 1" class="corporate-img">
+                        <h4>John Doe</h4>
+                        <p>John is a software engineer with over 10 years of experience in developing web applications. He is passionate about Rust and enjoys contributing to open source projects in his free time.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/images/jane_smith.jpg" alt="Person 2" class="corporate-img">
+                        <h4>Jane Smith</h4>
+                        <p>Jane is a student studying computer science at a top university. She is interested in learning Rust and hopes to use it for her future projects.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/images/Mike Johnson.jpg" alt="Person 3" class="corporate-img">
+                        <h4>Mike Johnson</h4>
+                        <p>Mike is a freelance developer who has worked with a variety of programming languages. He recently started learning Rust and is excited about its potential for building fast and reliable systems.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/images/Sara Lee.jpg" alt="Person 4" class="corporate-img">
+                        <h4>Sara Lee</h4>
+                        <p>Sara is a front-end developer who is interested in expanding her skills to include back-end development. She has heard great things about Rust and is eager to learn more about it.</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </ol>
+                
+                        <!-- Slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/rust_logo_2.jpg" alt="Image 1">
+                                <div class="carousel-caption">
+                                    <h3>A rust logo</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/rust_logo_with_crab.jpg" alt="Image 2">
+                                <div class="carousel-caption">
+                                    <h3>A rust logo with a crab</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/rust_logo_3.jpg" alt="Image 3">
+                                <div class="carousel-caption">
+                                    <h3>Another rust logo</h3>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Left and Right Arrows -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!-- Add an accordion with at least 4 heanding and contents-->
+            <section>
+                <div class="accordion" id="accordion">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          What is Rust ?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" 
+                      data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references. 
+                            Rust achieves memory safety without garbage collection, and reference counting is optional. Rust was originally designed by Graydon Hoare at Mozilla Research, with contributions from Dave Herman, Brendan Eich, and others. 
+                            The designers refined the language while writing the Servo layout or browser engine, and the Rust compiler. The compiler is free and open-source software dual-licensed under the MIT License and Apache License 2.0.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          What is Rust used for ?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" 
+                      data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            Rust is used for systems programming, where performance and control over resources are often valued more than convenience and ease of use. Rust is also used extensively for tooling, with the Rust compiler,
+                            the Cargo package manager, and the Rust Language Server being written in Rust. Many other tools are written in Rust, such as ripgrep, fd, exa, bat, and Alacritty. Rust is also used in embedded devices,
+                            operating systems, and web browsers, and is increasingly used in game development, where it competes with C++.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is Rust good for ?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" 
+                        data-bs-parent="#accordion">
+                          <div class="accordion-body">
+                            Rust is a good choice for writing fast and safe systems code. It is also a good choice for writing command-line tools, web servers, and web assembly applications. Rust is also a good choice for writing cross-platform code that runs on Android, iOS, Linux, macOS, Windows, and other operating systems.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                          data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What is Rust syntax ?
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" 
+                        data-bs-parent="#accordion">
+                          <div class="accordion-body">
+                            Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references. Rust achieves memory safety without garbage collection, and reference counting is optional.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <!-- Div 1: Contact Form -->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Contact Form
+                                </div>
+                                <div class="card-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="name">Name</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message">Message</label>
+                                            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Div 2: List or Paragraph -->
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    Contact Information
+                                </div>
+                                <div class="card-body">
+                                    <ul>
+                                        <li><strong>Address:</strong> 123 Main Street, Toronto, Canada</li>
+                                        <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+                                        <li><strong>Email:</strong> info@contact.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+</html>

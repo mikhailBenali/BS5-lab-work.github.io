@@ -1,0 +1,44 @@
+main {
+  background-color: #359d7b;
+}
+.row{
+  background-color: #0b7261;
+  border-radius: 5px;
+}
+.col-md-6, .col-md-4,.col-md-3, section{
+  padding: 10px;
+}
+
+.img-fluid{
+  border-radius: 5px;
+}
+.card{
+    border-radius: 5px;
+}
+.card-img-top{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#rust_book{
+  display: block;
+  margin: auto;
+  height: 75%;
+  width: 75%;
+}
+#rust_playground{
+  display: block;
+  margin: auto;
+  height: 75%;
+  width: 75%;
+}
+.corporate-img{
+  aspect-ratio: 1/1;
+  max-width: 100%;
+}
+#myCarousel img{
+  max-height: 75vh;
+  width: 100%;
+}
