@@ -1,12 +1,13 @@
 main {
-  background-color: #359d7b;
+  background-color: #ddd;
 }
 .row{
   background-color: #0b7261;
-  border-radius: 5px;
+  border : 2px solid #000;
+  border-radius: 10px;
 }
 .col-md-6, .col-md-4,.col-md-3, section{
-  padding: 10px;
+  padding: 25px;
 }
 
 .img-fluid{
@@ -22,17 +23,18 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#rust_book{
-  display: block;
-  margin: auto;
-  height: 75%;
-  width: 75%;
+#rust_book_text, #rust_playground_text{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
 }
-#rust_playground{
-  display: block;
-  margin: auto;
-  height: 75%;
-  width: 75%;
+#rust_book,#rust_playground{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .corporate-img{
   aspect-ratio: 1/1;
